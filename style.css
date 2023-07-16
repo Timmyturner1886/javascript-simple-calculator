@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(39, 89, 78);
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.calculator {
+    background-color: beige;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+button {
+    background-color: rgb(66, 64, 68);
+    border: none;
+    color:rgb(233, 229, 229);
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+    margin: 4px;
+}
+button:hover{
+    background-color: rgb(233, 229, 229);
+    color: rgb(66, 64, 68);
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+}
+button:active{
+    background-color: rgb(233, 229, 229);
+    color: rgb(66, 64, 68);
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    transition-duration: 0.4s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    
+}
+
+
+#clear{
+    background-color: rgb(233, 229, 229);
+    color: rgb(106, 198, 45);
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+#clear:hover{
+    background-color: rgb(106, 198, 45);
+    color: rgb(233, 229, 229);
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    transition-duration: 0.4s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
+#clear:active{
+    background-color: rgb(106, 198, 45);
+    color: rgb(233, 229, 229);
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    transition-duration: 0.4s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
+#equal{
+    background-color: rgb(233, 229, 229);
+    color: rgb(45, 101, 198);
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#equal:hover{
+    background-color: rgb(45, 119, 198);
+    color: rgb(233, 229, 229);
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    transition-duration: 0.4s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
+#equal:active{
+    background-color: rgb(106, 198, 45);
+    color: rgb(233, 229, 229);
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    transition-duration: 0.4s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
+#del{
+    background-color: rgb(233, 229, 229);
+    color: rgb(229, 104, 32);
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+#del:hover{
+    background-color: rgb(229, 104, 32);
+    color: rgb(233, 229, 229);
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 19px;
+    font-size: 30px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    transition-duration: 0.4s;
+    transition-property: transform;
+
+}
+
+#del:active{
+    background-color: rgb(229, 104, 32);
+    color: rgb(233, 229, 229);
+
+}
+.screen {
+    background-color: rgb(233, 229, 229);
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(233, 229, 229);
+    color: rgb(66, 64, 68);
+    font-size: 30px;
+    padding: 4px; 
+    margin: 10px 0 0;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px #666;
+    
+
+
+}
+
+.screen:hover{
+    background-color: rgb(233, 229, 229);
+    color: rgb(66, 64, 68);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 30px;
+    box-shadow: 0 5px #666;
+   
+    
+}
+.keys {
+    width: 300px;
+    display: flex;
+   flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+
