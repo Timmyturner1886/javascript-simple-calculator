@@ -162,10 +162,10 @@ button:active{
     border: none;
     outline: none;
     box-shadow: 0 5px #666;
-    
-
+    flex: content;
 
 }
+
 
 .screen:hover{
     background-color: rgb(233, 229, 229);
